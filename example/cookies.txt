@@ -1,0 +1,16 @@
+[
+{
+    "domain": "www.baidu.com",
+    "expirationDate": 1509774078,
+    "hostOnly": false,
+    "httpOnly": false,
+    "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "path": "/",
+    "sameSite": "no_restriction",
+    "secure": false,
+    "session": false,
+    "storeId": "0",
+    "value": "1478223925",
+    "id": 1
+}
+]

@@ -1,0 +1,45 @@
+{
+  "name": "edit-this-cookie-to-tough-cookie",
+  "title": "edit-this-cookie-to-tough-cookie",
+  "description": "Convert EditThisCookie json format to ToughCookie json file",
+  "version": "1.0.0",
+  "main": "dist/etc2tc.js",
+  "files": [
+    "dist/etc2tc.js",
+    "dist/etc2tc.min.js",
+    "dist/etc2tc.min.js.map",
+    "src/etc2tc.js"
+  ],
+  "homepage": "https://github.com/xlsdg/edit-this-cookie-to-tough-cookie",
+  "author": "xLsDg <xlsdg@qq.com> (https://blog.xlsdg.org/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xlsdg/edit-this-cookie-to-tough-cookie.git"
+  },
+  "keywords": [
+    "editthiscookie",
+    "toughcookie",
+    "json",
+    "library",
+    "node"
+  ],
+  "bugs": {
+    "url": "https://github.com/xlsdg/edit-this-cookie-to-tough-cookie/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.16.6",
+    "moment": "^2.16.0"
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0"
+  },
+  "scripts": {
+    "build": "npm install && gulp",
+    "start": "gulp watch"
+  }
+}
