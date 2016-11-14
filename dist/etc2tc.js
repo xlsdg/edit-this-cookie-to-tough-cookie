@@ -26,6 +26,10 @@ function etc2tc(srcFile, dstFile) {
     var dstJson = {};
 
     _.each(srcJson, function(c) {
+        if (c.domain.charAt(0) === '.') {
+            c.domain = c.domain.slice(1);
+        }
+
         var dst = {
             'domain': c.domain,
             'path': c.path,
