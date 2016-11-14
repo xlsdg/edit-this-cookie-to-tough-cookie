@@ -26,7 +26,7 @@ function etc2tc(srcFile, dstFile) {
     var dstJson = {};
 
     _.each(srcJson, function(c) {
-        let dst = {
+        var dst = {
             'domain': c.domain,
             'path': c.path,
             'key': c.name,
