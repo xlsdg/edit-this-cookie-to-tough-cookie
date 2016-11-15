@@ -2,7 +2,7 @@
   "name": "etc2tc",
   "title": "edit-this-cookie-to-tough-cookie",
   "description": "Convert EditThisCookie json format to ToughCookie json file",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "dist/etc2tc.js",
   "files": [
     "dist/etc2tc.js",
