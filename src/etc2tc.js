@@ -22,15 +22,15 @@ function etc2tc(srcFile, dstFile) {
         return null;
     }
 
-    var srcJson = JSON.parse(Fs.readFileSync(srcFile, 'utf8'));
-    var dstJson = {};
+    let srcJson = JSON.parse(Fs.readFileSync(srcFile, 'utf8'));
+    let dstJson = {};
 
     _.each(srcJson, function(c) {
         if (c.domain.charAt(0) === '.') {
             c.domain = c.domain.slice(1);
         }
 
-        var dst = {
+        let dst = {
             'domain': c.domain,
             'path': c.path,
             'key': c.name,

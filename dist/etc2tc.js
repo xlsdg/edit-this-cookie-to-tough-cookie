@@ -1,8 +1,8 @@
 'use strict';
 
-const Fs = require('fs');
-const _ = require('lodash');
-const Moment = require('moment');
+var Fs = require('fs');
+var _ = require('lodash');
+var Moment = require('moment');
 
 function createObj(obj, name) {
     if (obj[name] === undefined) {
@@ -25,7 +25,7 @@ function etc2tc(srcFile, dstFile) {
     var srcJson = JSON.parse(Fs.readFileSync(srcFile, 'utf8'));
     var dstJson = {};
 
-    _.each(srcJson, function(c) {
+    _.each(srcJson, function (c) {
         if (c.domain.charAt(0) === '.') {
             c.domain = c.domain.slice(1);
         }
